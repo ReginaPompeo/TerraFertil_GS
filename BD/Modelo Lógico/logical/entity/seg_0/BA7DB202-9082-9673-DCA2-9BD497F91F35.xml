@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA7DB202-9082-9673-DCA2-9BD497F91F35" name="resposta">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:57:40 UTC</createdTime>
+<generatorID>91FBAB1B-EF6E-2342-2B3B-F8956ADFD48F</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="0D4BBE5F-EAFE-8472-7E47-E4E434B5CA3C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id resposta" id="BD48FB96-3511-6B83-0FA9-D42C0CFC9B3B">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:57:40 UTC</createdTime>
+<generatorID>1A18E49E-5E87-2FCA-8F33-801525EF4DA2</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="0D4BBE5F-EAFE-8472-7E47-E4E434B5CA3C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="texto" id="7623AFB7-C11F-5784-13FA-C8DEBA386BFF">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:57:40 UTC</createdTime>
+<generatorID>C1318B04-4D23-9F25-C47C-AB513AE7C7FC</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="0D4BBE5F-EAFE-8472-7E47-E4E434B5CA3C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data post" id="17490547-2C96-2040-03C7-B032AC521CFA">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:57:40 UTC</createdTime>
+<generatorID>FA0F8FFE-14BC-11D6-B4BE-C8B5A03DBDF7</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="0D4BBE5F-EAFE-8472-7E47-E4E434B5CA3C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aceitacao" id="3B2AD648-97A0-97FE-A779-576EC53AD7EA">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:57:40 UTC</createdTime>
+<generatorID>9C0E4D6B-D60B-8C16-A963-8A3FC4A78751</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="0D4BBE5F-EAFE-8472-7E47-E4E434B5CA3C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="A066E43D-F497-08FB-B3D9-EDE59C616812">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 08:36:47 UTC</createdTime>
+<generatorID>35EA8FF7-4656-03EF-0895-8C7A64A61A4F</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="0D4BBE5F-EAFE-8472-7E47-E4E434B5CA3C" value="true"/>
+</engineerTo>
+<referedAttribute>E9C2E8F0-7EFC-957C-51FC-D32E9DF3E197</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="1289366C-2E6C-BC61-BD5B-06DB0D0FD8F8">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 08:37:15 UTC</createdTime>
+<generatorID>BDD568BA-F9CA-C206-5FD7-F7C5F9503BDC</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="0D4BBE5F-EAFE-8472-7E47-E4E434B5CA3C" value="true"/>
+</engineerTo>
+<referedAttribute>4899E60E-19AC-0E97-8A16-F041DD0F2C3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2621D5CC-B563-4699-7A9E-16F761B1B951" name="resposta PK">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:57:40 UTC</createdTime>
+<generatorID>186B90F2-266B-021A-5B60-36D8825C6F65</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0D4BBE5F-EAFE-8472-7E47-E4E434B5CA3C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD48FB96-3511-6B83-0FA9-D42C0CFC9B3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

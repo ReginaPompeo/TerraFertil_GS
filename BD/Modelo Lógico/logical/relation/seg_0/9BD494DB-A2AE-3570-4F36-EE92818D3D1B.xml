@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="solicitar" directorySegmentName="seg_0" id="9BD494DB-A2AE-3570-4F36-EE92818D3D1B">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 07:07:23 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<engineerTo>
+<item key="0D4BBE5F-EAFE-8472-7E47-E4E434B5CA3C" value="true"/>
+</engineerTo>
+<sourcePk>BFE8DB46-84B0-E6CE-E844-8973B2BC2733</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C50914B3-205B-7DDB-510A-86BAD854D6DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0511BD9B-7B97-7FA6-6C04-C924508451BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

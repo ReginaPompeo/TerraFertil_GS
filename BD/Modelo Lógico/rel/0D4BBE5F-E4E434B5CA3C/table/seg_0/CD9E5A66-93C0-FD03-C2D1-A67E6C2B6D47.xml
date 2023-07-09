@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD9E5A66-93C0-FD03-C2D1-A67E6C2B6D47" name="noticia">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:44:01 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_noticia" id="386CA391-AAB2-02E4-EEC5-C5282D6CD8DF">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:46:49 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="D8B3D14B-DBED-3D72-DA0F-C5ED1E817E23">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:46:49 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="texto" id="1A5C5581-8B18-BB3E-E3D8-E6292A840D6D">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:46:49 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_post" id="BC6C0DDA-0E2C-5BFB-DD8F-98246BBFBBDD">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:46:49 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E2488B3-3715-14A6-7DB8-CD171E1A2D30" name="noticia_PK">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:46:49 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="386CA391-AAB2-02E4-EEC5-C5282D6CD8DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

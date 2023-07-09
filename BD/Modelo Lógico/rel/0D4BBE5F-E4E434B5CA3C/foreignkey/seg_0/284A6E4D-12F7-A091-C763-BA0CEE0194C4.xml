@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="284A6E4D-12F7-A091-C763-BA0CEE0194C4" containerWithKeyObject="D1D0C1CB-4847-905A-2B46-095D1024966C" localFKIndex="DC9F6C11-5245-5E65-B35F-7E4A93B67525" name="login_pessoa_fisica_FK">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 07:13:06 UTC</createdTime>
+<generatorID>6CB83F17-EE62-4224-6D16-440AB02CFAAA</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<referredTableLongName>pessoa_fisica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE072E69-B994-8D19-C0BC-839A955122FE</referredTableID>
+<keyObject>F576F7A4-3D0D-0DD3-4C41-88D32F0E5D3C</keyObject>
+<referredKeyID>F576F7A4-3D0D-0DD3-4C41-88D32F0E5D3C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pessoa_fis</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

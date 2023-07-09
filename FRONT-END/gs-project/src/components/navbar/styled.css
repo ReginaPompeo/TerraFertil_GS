@@ -1,0 +1,100 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(61,107,11);
+    background: linear-gradient(260deg, rgba(61,107,11,1) 0%, rgba(139,69,19,1) 75%);
+    padding: 10px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    position: sticky;
+    z-index: 999;
+}
+.sticky {
+    top: 0;
+    width: 100%;
+  }
+.logo{
+    height: 50px;
+    padding-right: 20px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    padding-top: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover{
+    color: #d4a707;
+}
+#navbar li a:hover::after,
+#navbar li a:active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+#mobile{
+    display: none;
+}
+#mobile iconClass{
+    color: #fff;
+    align-items: center;
+}
+@media screen and (max-width: 1095px){
+    .logo{
+        height: 50px;
+        padding-right: 20px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 70px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: rgb(61,107,11);
+        background: linear-gradient(260deg, rgba(61,107,11,0.9192927170868347) 31%, rgba(139,69,19,0.9192927170868347) 100%);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+        display: block;
+    }
+    #mobile{
+        display: block;
+    }
+    #mobile iconClass{
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 390px){
+    .logo{
+        height: 50px;
+        padding-right: 50px;
+    }
+}

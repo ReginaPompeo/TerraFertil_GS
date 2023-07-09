@@ -1,0 +1,98 @@
+section{
+    padding: 100px 0;
+}
+section .title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: green;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px  #000000;
+    
+}
+.about{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(61,107,11);
+    background: linear-gradient(260deg, rgba(61,107,11,1) 8%, rgba(139,69,19,1) 75%);
+}
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    text-shadow: 1px 1px  #000000;
+}
+.about .about-content .left{
+    width: 45%;
+    padding-left: 100px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: green;
+}
+.about .about-content .right p{
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 60px;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: green;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid green;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px #000000;
+}
+.about .about-content .right a:hover{
+    color: green;
+    background: none;
+}
+.about .about-content .left img{
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 60px;
+    margin-left: 90px;
+}
+@media (max-width: 1230px) {
+  .about .about-content .left img {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 1072px) {
+  .about .about-content .column {
+    width: 50%;
+  }
+  .about .about-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 50px 10px;
+  }
+  .about .about-content .right {
+    flex: 100%;
+    text-align: center;
+  }
+  .about .about-content .right p{
+    flex: 100%;
+    text-align: center;
+    margin-left: 50px;
+  }
+}

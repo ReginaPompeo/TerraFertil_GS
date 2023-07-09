@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91FBAB1B-EF6E-2342-2B3B-F8956ADFD48F" name="resposta">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:42:13 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_resposta" id="1A18E49E-5E87-2FCA-8F33-801525EF4DA2">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:43:40 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="texto" id="C1318B04-4D23-9F25-C47C-AB513AE7C7FC">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:43:40 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_post" id="FA0F8FFE-14BC-11D6-B4BE-C8B5A03DBDF7">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:43:40 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aceitacao" id="9C0E4D6B-D60B-8C16-A963-8A3FC4A78751">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:43:40 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pessoa_fisica_id_pessoa_fis" id="44FC6BD1-1D99-430D-461D-B300DF815D9C">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 07:13:06 UTC</createdTime>
+<generatorID>E2054833-4B6C-A3CB-D90D-CB527DD7AC09</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5131878-8DEB-9B97-1A08-2F36DEB7F660" referredColumn="E03F41EE-84DD-8538-CB9B-4BF340A92E09"/>
+</associations>
+</Column>
+<Column name="pessoa_juridica_id_pessoa_jur" id="4F51D3BB-7B12-4204-F40C-D9ADA7E9D864">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 07:13:06 UTC</createdTime>
+<generatorID>99F5C8C3-B3AF-AD28-1C09-0D203739A1D8</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F12E6A53-F724-28A1-DED2-894FA95D5CCD" referredColumn="1AD29D38-ECF0-0EB2-3CA0-FC7757BCBCB4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="186B90F2-266B-021A-5B60-36D8825C6F65" name="resposta_PK">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 06:43:40 UTC</createdTime>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A18E49E-5E87-2FCA-8F33-801525EF4DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="343FE67C-471A-C3FF-155B-0C41785489AB" name="resposta_pessoa_fisica_FK">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 07:13:06 UTC</createdTime>
+<generatorID>BDD568BA-F9CA-C206-5FD7-F7C5F9503BDC</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44FC6BD1-1D99-430D-461D-B300DF815D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D0B9287-FC9D-EEB2-9F42-D701E59739AE" name="resposta_pessoa_juridica_FK">
+<createdBy>Matheus</createdBy>
+<createdTime>2023-06-07 07:13:06 UTC</createdTime>
+<generatorID>35EA8FF7-4656-03EF-0895-8C7A64A61A4F</generatorID>
+<ownerDesignName>Modelo Lógico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F51D3BB-7B12-4204-F40C-D9ADA7E9D864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
